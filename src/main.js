@@ -6,6 +6,18 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+
+Vue.component('my-text',{
+  template: '<mark>hello zaizai</mark>'
+})
+
+
+window.onload = function(){
+  let base = 750/24;
+  document.documentElement.style.fontSize = window.innerWidth/base;
+  document.body.style.fontSize = window.innerWidth/base;
+
+}
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
