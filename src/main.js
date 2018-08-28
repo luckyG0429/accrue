@@ -18,6 +18,7 @@ window.onload = function(){
   document.body.style.fontSize = window.innerWidth/base;
 
 }
+window.THREE = require('three')
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
